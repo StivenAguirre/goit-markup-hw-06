@@ -68,35 +68,76 @@
                 <use href="./images/symbol-defs.svg#icon-vector"></use>
               </svg>
             </button>
-            <h3>Deje sus datos, nos contactaremos con usted</h3>
-            <form action="">
-              <label for="name" id="name">Nombre</label><br />
-              <input type="text" name="name" id="name" /> <br />
-              <label for="telefono" id="telefono">Telefono</label><br />
-              <input type="tel" name="tel" id="telefono" /><br />
-              <label for="email" id="email">E-mail</label><br />
-              <input type="email" name="email" id="email" /><br />
-              <label for="comentario" id="email">Comentarios</label><br />
-              <textarea
-                name="Comentario"
-                rows="5"
-                placeholder="Introduzca el texto"
-              ></textarea
-              ><br />
-              <div>
-                <svg class="icons-indicators">
-                  <use href="./images/symbol-defs.svg#icon-reloj-1"></use>
-                </svg>
-                <p>
-                  Estoy de acuerdo con el boletín informativo y acepto los
-                  Términos y Condiciones
-                </p>
-              </div>
-              <input
-                class="btn-send-modal"
-                type="submit"
-                value="Enviar"
-              /><br />
+            <h3 class="title-modal">
+              Deje sus datos, nos contactaremos con usted
+            </h3>
+            <form class="form-modal">
+              <label for="name" class="subtitle-modal">
+                Nombre
+                <div class="set-container-form">
+                  <div class="item-box-icons-form">
+                    <svg class="vector-form personas">
+                      <use href="./images/symbol-defs.svg#icon-persona"></use>
+                    </svg>
+                  </div>
+                  <input type="text" name="telefonio" class="input-form" />
+                </div>
+              </label>
+              <label for="telefono" class="subtitle-modal"
+                >Telefono
+                <div class="set-container-form">
+                  <div class="item-box-icons-form">
+                    <svg class="vector-form telefonoantiguo">
+                      <use
+                        href="./images/symbol-defs.svg#icon-telefonoantiguo"
+                      ></use>
+                    </svg>
+                  </div>
+                  <input type="tel" name="tel" class="input-form" />
+                </div>
+              </label>
+              <label for="email" class="subtitle-modal">
+                E-mail
+                <div class="set-container-form">
+                  <div class="item-box-icons-form">
+                    <svg class="vector-form chulo">
+                      <use
+                        href="./images/symbol-defs.svg#icon-emailmodal"
+                      ></use>
+                    </svg>
+                  </div>
+                  <input type="email" name="email" class="input-form" />
+                </div>
+              </label>
+              <label for="comentario" class="subtitle-modal"
+                >Comentarios
+                <div class="box-textarea-form">
+                  <textarea
+                    class="textarea-form-modal"
+                    name="Comentario"
+                    rows="5"
+                    placeholder="Introduzca el texto"
+                  ></textarea>
+                </div>
+              </label>
+              <label for="conditions">
+                <div class="box-conditions-form">
+                  <input
+                    type="checkbox"
+                    name="conditions"
+                    class="input-checkbox-form"
+                  />
+                  <p class="text-condition-modal">
+                    Estoy de acuerdo con el boletín informativo y acepto los
+                    Términos y Condiciones
+                  </p>
+                </div>
+              </label>
+              <label>
+                <div class="box-btn-send-modal">
+                  <input class="btn-send-modal" type="submit" value="Enviar" />
+                </div>
+              </label>
             </form>
           </dialog>
         </div>
