@@ -751,6 +751,85 @@ footer {
   fill: var(--background-color-header);
 }
 
+.container-suscribe-footer {
+  margin-left: 93px;
+}
+
+.form-footer {
+  display: flex;
+}
+
+.title-modal-footer {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: white;
+  margin-bottom: 17px;
+}
+
+.textarea-form-footer {
+  resize: none;
+  padding: 15px 101px 15px 16px;
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background: none;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  text-align: left;
+  overflow-y: hidden;
+  color: var(--background-color-header);
+}
+
+.container-btn-footer {
+  display: flex;
+  margin-left: 15px;
+}
+
+.set-btn-footer {
+  position: relative;
+}
+
+.item-btn-footer {
+  position: absolute;
+  right: 28px;
+  top: 13px;
+}
+
+.icon-send-btn-footer {
+  height: 24.000051498413086px;
+  width: 23.999996185302734px;
+  fill: var(--background-color-header);
+}
+
+.btn-send-footer {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  border: none;
+  color: var(--background-color-header);
+  background: var(--color-pseudoclase);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.text-btn-send-footer {
+  position: relative;
+  right: 15px;
+  color: var(--background-color-header);
+}
+
 /* Modal-section-heroes */
 
 .form-modal {
@@ -848,6 +927,7 @@ footer {
 .box-conditions-form {
   display: flex;
   margin-top: 20px;
+  margin-left: 20px;
 }
 
 .input-checkbox-form {
@@ -910,6 +990,11 @@ footer {
   height: 35px;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.vector-btn-close-modal:hover,
+.vector-btn-close-modal:focus {
+  fill: var(--color-pseudoclase);
 }
 
 #btn-close-modal {
