@@ -797,26 +797,22 @@ footer {
   position: relative;
 }
 
-.item-btn-footer {
-  position: absolute;
-  right: 28px;
-  top: 13px;
-}
-
 .icon-send-btn-footer {
   height: 24.000051498413086px;
   width: 23.999996185302734px;
   fill: var(--background-color-header);
+  margin-left: 20px;
 }
 
 .btn-send-footer {
+  display: flex;
+  padding: 10px 40px;
+  align-items: center;
   font-size: 16px;
   font-weight: 700;
   line-height: 30px;
   letter-spacing: 0.06em;
   text-align: center;
-  width: 200px;
-  height: 50px;
   border: none;
   color: var(--background-color-header);
   background: var(--color-pseudoclase);
@@ -959,8 +955,7 @@ footer {
 }
 
 .btn-send-modal {
-  width: 200px;
-  height: 50px;
+  line-height: 1.88;
   background: var(--color-pseudoclase);
   color: white;
   border-radius: 4px;
